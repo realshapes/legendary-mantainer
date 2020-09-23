@@ -1,5 +1,5 @@
 # legendary-updater
-A simple batch script that checks for updates on Legendary
+A simple batch script that checks for updates on the [Legendary CLI Program](https://github.com/derrod/legendary)
 
 ## Usage
 Before using be sure to have the `Legendary.exe` file in your User account folder Ex. `C:\Users\shapes`. If it isn't in there, move it into there or
