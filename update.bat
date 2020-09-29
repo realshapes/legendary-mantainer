@@ -20,7 +20,14 @@ rem AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 rem LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 rem OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 rem SOFTWARE.
-title Legendary Update Checker
+title Legendary Maintainer
 cd C:\Users\%username%
+echo Syncing Save Files...
+legendary sync-saves
+cls
+echo Done.
+PING localhost -n 2 >NUL
+cls
+echo Checking for Updates...
 legendary list-installed --check-updates
 pause
